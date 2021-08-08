@@ -51,7 +51,7 @@ const convertToWav = file => {
 }
 
 XTroid.addCMD({on: 'text', fromMe: wk, dontAddCMDList: true, deleteCommand: false}, (async (message, match) => {
-    if (message.message.startsWith('Kumiko') && conf.AILIZA !== 'true') {        
+    if (message.message.startsWith('Liza') && conf.AILIZA !== 'true') {        
         var unique_ident = message.client.user.jid.split('@')[0]      
         var finm = message.message.replace('Liza', '').replace(' ', '')   
         var ldet = lngDetector.detect(finm)
