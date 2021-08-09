@@ -38,7 +38,7 @@ if (Config.WORKTYPE == 'private') {
         );
         
              await message.client.sendMessage(
-                message.jid,'KUMIKO \n\n\n' + CMD_HELP, MessageType.text
+                message.jid,'_*LIZA*_ \n\n\n' + CMD_HELP, MessageType.text
             );    
     } else {
         var CMD_HELP = '';
@@ -69,7 +69,7 @@ if (Config.WORKTYPE == 'private') {
         );
         if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
        await message.client.sendMessage(
-                message.jid,'KUMIKO \n\n\n' + CMD_HELP, MessageType.text
+                message.jid,'_*LIZA*_ \n\n\n' + CMD_HELP, MessageType.text
             );
     }
 }));
@@ -106,7 +106,7 @@ else if (Config.WORKTYPE == 'public') {
         );
         
         await message.client.sendMessage(
-                message.jid,'KUMIKO \n\n\n' + CMD_HELP, MessageType.text
+                message.jid,'_*LIZA*_ \n\n\n' + CMD_HELP, MessageType.text
             );     
     } else {
         var CMD_HELP = '';
@@ -137,7 +137,7 @@ else if (Config.WORKTYPE == 'public') {
         );
         if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
         await message.client.sendMessage(
-                message.jid,'KUMIKO \n\n\n' + CMD_HELP, MessageType.text
+                message.jid,'_*LIZA*_ \n\n\n' + CMD_HELP, MessageType.text
             );
     }
 }));
@@ -170,7 +170,7 @@ XTroid.addCMD({pattern: 'x ?(.*)', fromMe: true, dontAddCMDList: true}, (async (
         );
         
         await message.client.sendMessage(
-                message.jid,'KUMIKO \n\n\n' + CMD_HELP, MessageType.text
+                message.jid,'_*LIZA*_ \n\n\n' + CMD_HELP, MessageType.text
             );     
     } else {
         var CMD_HELP = '';
@@ -201,7 +201,7 @@ XTroid.addCMD({pattern: 'x ?(.*)', fromMe: true, dontAddCMDList: true}, (async (
         );
         if (CMD_HELP === '') CMD_HELP += Lang.NOT_FOUND;
         await message.client.sendMessage(
-                message.jid,'KUMIKO \n\n\n' + CMD_HELP, MessageType.text
+                message.jid,'_*LIZA*_ \n\n\n' + CMD_HELP, MessageType.text
             );
     }
 }));
