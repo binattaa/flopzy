@@ -13,12 +13,6 @@ let FM = Config.WORKTYPE == 'public' ? false : true
 
 XTroid.addCMD({pattern: 'nclub ?(.*)', fromMe: FM, dontAddCMDList: true}, (async (message, match) => {
 
-    await axios.get(`https://tinyurl.com/${Config.LOCKR}`).then(async (ann) => {
-        const { lasi } = ann.data.def1
-    const lc = lasi
-    const seed = Config.LOCK
-    if (lc !== seed) return await message.sendMessage(Config.GG);
-
     if (match[1] === '') return await message.sendMessage(need);
     lasiapi.textpro("https://textpro.me/create-3d-neon-light-text-effect-online-1028.html",
         `${match[1]}`
@@ -44,12 +38,8 @@ XTroid.addCMD({pattern: 'nclub ?(.*)', fromMe: FM, dontAddCMDList: true}, (async
 
 XTroid.addCMD({pattern: 'ngreen ?(.*)', fromMe: FM, dontAddCMDList: true}, (async (message, match) => {
 
-    await axios.get(`https://tinyurl.com/${Config.LOCKR}`).then(async (ann) => {
-        const { lasi } = ann.data.def1
-        const lc = lasi
-        const seed = Config.LOCK
-        if (lc !== seed) return await message.sendMessage(GG);
-    if (match[1] === '') return await message.sendMessage(need);
+    
+        if (match[1] === '') return await message.sendMessage(need);
     lasiapi.textpro("https://textpro.me/green-neon-text-effect-874.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -73,11 +63,6 @@ XTroid.addCMD({pattern: 'ngreen ?(.*)', fromMe: FM, dontAddCMDList: true}, (asyn
 
 XTroid.addCMD({pattern: 'nsteel ?(.*)', fromMe: FM, dontAddCMDList: true}, (async (message, match) => {
 
-    await axios.get(`https://tinyurl.com/${Config.LOCKR}`).then(async (ann) => {
-        const { lasi } = ann.data.def1
-        const lc = lasi
-        const seed = Config.LOCK
-        if (lc !== seed) return await message.sendMessage(GG);
     if (match[1] === '') return await message.sendMessage(need);
     lasiapi.textpro("https://textpro.me/eroded-metal-text-effect-834.html",
         `${match[1]}`
@@ -101,11 +86,6 @@ XTroid.addCMD({pattern: 'nsteel ?(.*)', fromMe: FM, dontAddCMDList: true}, (asyn
 
 XTroid.addCMD({pattern: 'nxms ?(.*)', fromMe: FM, dontAddCMDList: true}, (async (message, match) => {
 
-    await axios.get(`https://tinyurl.com/${Config.LOCKR}`).then(async (ann) => {
-        const { lasi } = ann.data.def1
-        const lc = lasi
-        const seed = Config.LOCK
-        if (lc !== seed) return await message.sendMessage(GG);
     if (match[1] === '') return await message.sendMessage(need);
     lasiapi.textpro("https://textpro.me/create-a-christmas-holiday-snow-text-effect-1007.html",
         `${match[1]}`
@@ -129,11 +109,6 @@ XTroid.addCMD({pattern: 'nxms ?(.*)', fromMe: FM, dontAddCMDList: true}, (async 
 
 XTroid.addCMD({pattern: 'ncloud ?(.*)', fromMe: FM, dontAddCMDList: true}, (async (message, match) => {
 
-    await axios.get(`https://tinyurl.com/${Config.LOCKR}`).then(async (ann) => {
-        const { lasi } = ann.data.def1
-        const lc = lasi
-        const seed = Config.LOCK
-        if (lc !== seed) return await message.sendMessage(GG);
     if (match[1] === '') return await message.sendMessage(need);
     lasiapi.textpro("https://textpro.me/create-a-cloud-text-effect-on-the-sky-online-1004.html",
         `${match[1]}`
@@ -158,11 +133,6 @@ XTroid.addCMD({pattern: 'ncloud ?(.*)', fromMe: FM, dontAddCMDList: true}, (asyn
 
 XTroid.addCMD({pattern: 'nblood ?(.*)', fromMe: FM, dontAddCMDList: true}, (async (message, match) => {
 
-    await axios.get(`https://tinyurl.com/${Config.LOCKR}`).then(async (ann) => {
-        const { lasi } = ann.data.def1
-        const lc = lasi
-        const seed = Config.LOCK
-        if (lc !== seed) return await message.sendMessage(GG);
     if (match[1] === '') return await message.sendMessage(need);
     lasiapi.textpro("https://textpro.me/blood-text-on-the-frosted-glass-941.html",
         `${match[1]}`
@@ -188,12 +158,7 @@ XTroid.addCMD({pattern: 'nblood ?(.*)', fromMe: FM, dontAddCMDList: true}, (asyn
 
 XTroid.addCMD({pattern: 'ntoxic ?(.*)', fromMe: FM, dontAddCMDList: true}, (async (message, match) => {
 
-    await axios.get(`https://tinyurl.com/${Config.LOCKR}`).then(async (ann) => {
-        const { lasi } = ann.data.def1
-        const lc = lasi
-        const seed = Config.LOCK
-        if (lc !== seed) return await message.sendMessage(GG);
-    if (match[1] === '') return await message.sendMessage(need);
+     if (match[1] === '') return await message.sendMessage(need);
     lasiapi.textpro("https://textpro.me/toxic-text-effect-online-901.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -217,12 +182,7 @@ XTroid.addCMD({pattern: 'ntoxic ?(.*)', fromMe: FM, dontAddCMDList: true}, (asyn
 
 XTroid.addCMD({pattern: 'n2bld ?(.*)', fromMe: FM, dontAddCMDList: true}, (async (message, match) => {
 
-    await axios.get(`https://tinyurl.com/${Config.LOCKR}`).then(async (ann) => {
-        const { lasi } = ann.data.def1
-        const lc = lasi
-        const seed = Config.LOCK
-        if (lc !== seed) return await message.sendMessage(GG);
-    if (match[1] === '') return await message.sendMessage(need);
+       if (match[1] === '') return await message.sendMessage(need);
     lasiapi.textpro("https://textpro.me/horror-blood-text-effect-online-883.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -246,11 +206,7 @@ XTroid.addCMD({pattern: 'n2bld ?(.*)', fromMe: FM, dontAddCMDList: true}, (async
 
 XTroid.addCMD({pattern: 'ncarb ?(.*)', fromMe: FM, dontAddCMDList: true}, (async (message, match) => {
 
-    await axios.get(`https://tinyurl.com/${Config.LOCKR}`).then(async (ann) => {
-        const { lasi } = ann.data.def1
-        const lc = lasi
-        const seed = Config.LOCK
-        if (lc !== seed) return await message.sendMessage(GG);
+   
     if (match[1] === '') return await message.sendMessage(need);
     lasiapi.textpro("https://textpro.me/carbon-text-effect-833.html",
         `${match[1]}`
@@ -276,12 +232,8 @@ XTroid.addCMD({pattern: 'ncarb ?(.*)', fromMe: FM, dontAddCMDList: true}, (async
 
 XTroid.addCMD({pattern: 'nlux ?(.*)', fromMe: FM, dontAddCMDList: true}, (async (message, match) => {
 
-    await axios.get(`https://tinyurl.com/${Config.LOCKR}`).then(async (ann) => {
-        const { lasi } = ann.data.def1
-        const lc = lasi
-        const seed = Config.LOCK
-        if (lc !== seed) return await message.sendMessage(GG);
-    if (match[1] === '') return await message.sendMessage(need);
+   
+         if (match[1] === '') return await message.sendMessage(need);
     lasiapi.textpro("https://textpro.me/3d-luxury-gold-text-effect-online-1003.html",
         `${match[1]}`
         ).then(async (data) => { 
@@ -306,11 +258,6 @@ XTroid.addCMD({pattern: 'nlux ?(.*)', fromMe: FM, dontAddCMDList: true}, (async 
 
 XTroid.addCMD({pattern: 'ngold ?(.*)', fromMe: FM, dontAddCMDList: true}, (async (message, match) => {
 
-    await axios.get(`https://tinyurl.com/${Config.LOCKR}`).then(async (ann) => {
-        const { lasi } = ann.data.def1
-        const lc = lasi
-        const seed = Config.LOCK
-        if (lc !== seed) return await message.sendMessage(GG);
     if (match[1] === '') return await message.sendMessage(need);
     lasiapi.textpro("https://textpro.me/hexa-golden-text-effect-842.html",
         `${match[1]}`
