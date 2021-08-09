@@ -37,10 +37,11 @@ XTroid.addCMD({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,}, (as
         r_text[3] ="🌌❡០០ᖱ 🌙⩎ɨ❡ϦƬ 🌎";
         r_text[4] ="😘ցօօժ ⭐️ղíցհԵ 💝";
         r_text[5] ="🌃Ꮐᝪᝪᗞ 🙈ᑎᏆᏀᕼᎢ 💫✨";
-
+        r_text[6] ="🌹gσσ∂ ηιgнт🥰";
+        r_text[7] ="✳  🎀  𝒢💞💗𝒹 𝒩𝒾𝑔𝒽𝓉  🎀  ✳";
       
     
-        var i = Math.floor(6*Math.random())
+        var i = Math.floor(8*Math.random())
     
         await message.client.sendMessage(
             message.jid,(r_text[i]), MessageType.text);
@@ -76,15 +77,17 @@ XTroid.addCMD({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,}, (as
         
                 var r_text = new Array ();
             
-                r_text[1] = "😘𝙂𝙤𝙤𝙙 🙈𝙣𝙞𝙜𝙝𝙩 💫✨";
-                r_text[2] ="🤗𝓖𝓸𝓸𝓭 🧚‍♀𝓷𝓲𝓰𝓱𝓽 ❄️✨";
-                r_text[3] ="🌌❡០០ᖱ 🌙⩎ɨ❡ϦƬ 🌎";
-                r_text[4] ="😘ցօօժ ⭐️ղíցհԵ 💝";
-                r_text[5] ="🌃Ꮐᝪᝪᗞ 🙈ᑎᏆᏀᕼᎢ 💫✨";
+                    r_text[1] = "😘𝙂𝙤𝙤𝙙 🙈𝙣𝙞𝙜𝙝𝙩 💫✨";
+                    r_text[2] ="🤗𝓖𝓸𝓸𝓭 🧚‍♀𝓷𝓲𝓰𝓱𝓽 ❄️✨";
+                    r_text[3] ="🌌❡០០ᖱ 🌙⩎ɨ❡ϦƬ 🌎";
+                    r_text[4] ="😘ցօօժ ⭐️ղíցհԵ 💝";
+                    r_text[5] ="🌃Ꮐᝪᝪᗞ 🙈ᑎᏆᏀᕼᎢ 💫✨";
+                    r_text[6] ="🌹gσσ∂ ηιgнт🥰";
+                    r_text[7] ="✳  🎀  𝒢💞💗𝒹 𝒩𝒾𝑔𝒽𝓉  🎀  ✳";
         
               
             
-                var i = Math.floor(6*Math.random())
+                var i = Math.floor(8*Math.random())
             
                 await message.client.sendMessage(
                     message.jid,(r_text[i]), MessageType.text);
@@ -115,15 +118,17 @@ XTroid.addCMD({pattern: 'gn', fromMe: true, deleteCommand: true, desc: GN,}, (as
                 
                         var r_text = new Array ();
                     
-                        r_text[1] = "😘𝙂𝙤𝙤𝙙 🙈𝙣𝙞𝙜𝙝𝙩 💫✨";
-                        r_text[2] ="🤗𝓖𝓸𝓸𝓭 🧚‍♀𝓷𝓲𝓰𝓱𝓽 ❄️✨";
-                        r_text[3] ="🌌❡០០ᖱ 🌙⩎ɨ❡ϦƬ 🌎";
-                        r_text[4] ="😘ցօօժ ⭐️ղíցհԵ 💝";
-                        r_text[5] ="🌃Ꮐᝪᝪᗞ 🙈ᑎᏆᏀᕼᎢ 💫✨";
-                
+                   r_text[1] = "😘𝙂𝙤𝙤𝙙 🙈𝙣𝙞𝙜𝙝𝙩 💫✨";
+                   r_text[2] ="🤗𝓖𝓸𝓸𝓭 🧚‍♀𝓷𝓲𝓰𝓱𝓽 ❄️✨";
+                   r_text[3] ="🌌❡០០ᖱ 🌙⩎ɨ❡ϦƬ 🌎";
+                   r_text[4] ="😘ցօօժ ⭐️ղíցհԵ 💝";
+                   r_text[5] ="🌃Ꮐᝪᝪᗞ 🙈ᑎᏆᏀᕼᎢ 💫✨";
+                   r_text[6] ="🌹gσσ∂ ηιgнт🥰";
+                   r_text[7] ="✳  🎀  𝒢💞💗𝒹 𝒩𝒾𝑔𝒽𝓉  🎀  ✳";
+                           
                       
                     
-                        var i = Math.floor(6*Math.random())
+                        var i = Math.floor(8*Math.random())
                     
                         await message.client.sendMessage(
                             message.jid,(r_text[i]), MessageType.text);
