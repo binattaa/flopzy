@@ -43,9 +43,9 @@ module.exports = {
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     GIF_WEL: process.env.GIF_WEL === undefined ?'https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/GTYSdDW/welcome-scenery_w1su4ez-h__76bbedbfeb6556bb8ba305dc5d7de900__P360.mp4' : process.env.GIF_WEL,
     GIF_BYE: process.env.GIF_BYE === undefined ?'https://webfilesdanuma.herokuapp.com/stream/14' : process.env.GIF_BYE,
-    CAPTION_KEY: process.env.CP === undefined ?'KUMIKO' : process.env.CP,
+    CAPTION_KEY: process.env.CP === undefined ?'LIZA' : process.env.CP,
     LOGO_KEY: process.env.LOGOAPI === undefined ?'B6FlBogm1ELO1Z52WigX70G1TOe' : process.env.LOGOAPI,
-    ALIVETEXT: process.env.ALIVENAME === undefined ?'*KUMIKO*\n   A L I V E  ' : process.env.ALIVENAME,
+    ALIVETEXT: process.env.ALIVENAME === undefined ?'*LIZA*\n      A L I V E  ' : process.env.ALIVENAME,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     BRANCH: 'master',
     HEROKU: {
